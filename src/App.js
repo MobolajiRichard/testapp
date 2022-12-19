@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <QueryClientProvider client={queryClient}>
-         {/* <Navbar/>
-      <Header/> */}
+      <Navbar/>
+      <Header/>
       <Search/>
       </QueryClientProvider>  
     </div>
